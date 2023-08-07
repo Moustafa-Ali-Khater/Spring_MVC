@@ -1,0 +1,29 @@
+package com.spring.studantcontrol;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+
+import com.spring.model.Student;
+
+@Controller
+@RequestMapping("student")
+public class StudentControl {
+
+	@RequestMapping("/account")
+	public String studantform() {
+		return "Student-Front/student-account";
+	}
+	
+	@RequestMapping("/studentprocess")
+	public String getdatastudant(@RequestParam ("fname") String fname, @RequestParam ("lname") String lname, 
+			@RequestParam ("age") String age, Model model) {
+		Student studant = new Student();
+		studant.setfName(fname);
+		studant.setlName(lname);
+		studant.setAge(age);
+		model.addAttribute("myStudent", studant);
+		return ("Student-Front/showdatastudent");
+	}
+}

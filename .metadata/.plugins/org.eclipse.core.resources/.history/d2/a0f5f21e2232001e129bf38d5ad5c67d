@@ -1,0 +1,19 @@
+package com.spring.Validation;
+
+import javax.validation.ConstraintValidator;
+import javax.validation.ConstraintValidatorContext;
+
+public class CodeValidator implements ConstraintValidator<VertyCode, String> {
+
+	private String myCode;
+	
+	public void initialize(VertyCode) {
+		
+	}
+	@Override
+	public boolean isValid(String arg0, ConstraintValidatorContext arg1) {
+		 
+		return false;
+	}
+
+}

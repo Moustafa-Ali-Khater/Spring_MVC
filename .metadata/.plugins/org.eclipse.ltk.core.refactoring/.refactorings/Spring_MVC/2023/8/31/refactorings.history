@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.spring.Validation&apos; to &apos;com.spring.validation&apos;&#x0D;&#x0A;- Original project: &apos;Spring_MVC&apos;&#x0D;&#x0A;- Original element: &apos;Spring_MVC/src/com.spring.Validation&apos;&#x0D;&#x0A;- Renamed element: &apos;Spring_MVC/src/com.spring.validation&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.spring.Validation&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;com.spring.Validation" name="com.spring.validation" qualified="false" references="true" stamp="1691092845957" textual="false" version="1.0"/>
+</session>

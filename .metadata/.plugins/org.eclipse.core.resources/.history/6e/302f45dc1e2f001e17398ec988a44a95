@@ -1,0 +1,19 @@
+package com.spring.studantcontrol;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+@RequestMapping("student")
+public class StudantControl {
+
+	@RequestMapping("/account")
+	public String studantform() {
+		return "Student-Front/student-account";
+	}
+	
+	@RequestMapping("/di")
+	public void name() {
+		
+	}
+}

@@ -1,0 +1,70 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<%@ taglib prefix="f" uri="http://www.springframework.org/tags/form" %>
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style type="text/css">
+	.error {
+		color: red;
+		font-weight: bold;
+	}
+</style>
+</head>
+<body>
+
+	<f:form action="process-mvc-tags" modelAttribute="student">
+		<p>First Name: <f:input path="fName"/>
+		<f:errors path="fName" cssClass="error"/></p>
+		
+		<p>Last Name: <f:input path="lName"/></p>
+		
+		<p>Age: <f:input path="age"/>
+		<f:errors path="age" cssClass="error"/></p>
+		
+		<p>Email: <f:input path="email"/>
+		<f:errors path="email" cssClass="error"/></p>
+		
+		<p>Number: <f:input path="number"/>
+		<f:errors path="number" cssClass="error"/></p>
+		
+		<p>Code: <f:input path="number"/>
+		<f:errors path="code" cssClass="error"/></p>
+		
+		Country: 
+		<!-- <f:select path="country">
+			<f:option value="Egypt" label="Egypt"/>
+			<f:option value="USA" label="USA"/>
+			<f:option value="Germany" label="German"/>
+			<f:option value="Russia" label="Russia"/>
+		</f:select> -->
+	
+		<f:select path="country">
+			<f:options items= "${student.countryselected}"/>
+		</f:select>
+		
+		<p>Choose your Language: 
+		<f:radiobutton path="language" value="Java"/>Java
+		<f:radiobutton path="language" value="C++"/>C++
+		<f:radiobutton path="language" value="C#"/>C#
+		<f:radiobutton path="language" value="Php"/>Php
+		<f:radiobutton path="language" value=".Net"/>.Net
+		<f:radiobutton path="language" value="Node Js"/>Node Js</p>
+		
+		<p>Players: 
+		<f:checkbox path="players" value="Messi"/>Messi
+		<f:checkbox path="players" value="CR7"/>CR7
+		<f:checkbox path="players" value="Kylian Mbappe"/>Kylian Mbappe
+		<f:checkbox path="players" value="Mohamed Salah"/>Mohamed Salah
+		<f:checkbox path="players" value="Maradona"/>Maradona
+		
+		
+		<p><input type="submit" value="Done"></p>
+		
+	</f:form>
+	
+</body>
+</html>

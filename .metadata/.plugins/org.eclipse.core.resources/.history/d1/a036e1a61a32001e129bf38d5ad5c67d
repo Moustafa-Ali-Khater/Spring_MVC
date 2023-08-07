@@ -1,0 +1,9 @@
+package com.spring.Validation;
+
+import javax.validation.ConstraintValidator;
+
+import org.hibernate.validator.ap.internal.checks.ConstraintCheck;
+
+public class CodeValidator implements ConstraintValidator {
+
+}

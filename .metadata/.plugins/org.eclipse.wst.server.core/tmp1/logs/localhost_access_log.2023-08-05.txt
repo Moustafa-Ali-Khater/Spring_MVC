@@ -1,0 +1,9 @@
+127.0.0.1 - - [05/Aug/2023:16:36:46 +0200] "GET / HTTP/1.1" 404 751
+127.0.0.1 - - [05/Aug/2023:16:36:48 +0200] "GET /Spring_MVC/ HTTP/1.1" 200 243
+127.0.0.1 - - [05/Aug/2023:16:37:30 +0200] "GET /Spring_MVC/ HTTP/1.1" 200 243
+127.0.0.1 - - [05/Aug/2023:16:37:34 +0200] "GET /Spring_MVC/student-mvc-tags/account-mvc-tags HTTP/1.1" 200 2449
+127.0.0.1 - - [05/Aug/2023:16:37:47 +0200] "POST /Spring_MVC/student-mvc-tags/process-mvc-tags HTTP/1.1" 200 2759
+127.0.0.1 - - [05/Aug/2023:16:37:55 +0200] "POST /Spring_MVC/student-mvc-tags/process-mvc-tags HTTP/1.1" 200 2762
+127.0.0.1 - - [05/Aug/2023:16:38:25 +0200] "POST /Spring_MVC/student-mvc-tags/process-mvc-tags HTTP/1.1" 200 2643
+127.0.0.1 - - [05/Aug/2023:16:38:31 +0200] "POST /Spring_MVC/student-mvc-tags/process-mvc-tags HTTP/1.1" 200 2581
+127.0.0.1 - - [05/Aug/2023:16:38:49 +0200] "POST /Spring_MVC/student-mvc-tags/process-mvc-tags HTTP/1.1" 200 360

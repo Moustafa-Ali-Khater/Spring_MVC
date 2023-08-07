@@ -1,0 +1,22 @@
+package com.spring.studantcontrol;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.spring.model.Student;
+
+@Controller
+@RequestMapping("student-mvc-tags")
+public class StudentControllerMVCTages {
+
+	@RequestMapping("/account-MVC-tags")
+	public String StudentFormMVCTags(Model model) {
+		Student student = new Student();
+		model.addAttribute("student", student);
+		return "Student-Front-MVC-Tags/student-account";
+	
+	@RequestMapping("/process-mvc-tags")
+	
+	}
+}

@@ -1,0 +1,4 @@
+#Tomcat publish data
+#Sat Aug 05 16:39:17 EET 2023
+org.eclipse.jst.jee.server\:/binary\:D\:\\eclipse\\Spring_MVC\\WebContent\\WEB-INF\\lib\\spring-web-5.2.9.RELEASE.jar=WEB-INF/lib/spring-web-5.2.9.RELEASE.jar
+org.eclipse.jst.jee.server\:/binary\:D\:\\eclipse\\Spring_MVC\\WebContent\\WEB-INF\\lib\\spring-web-5.2.9.RELEASE-sources.jar=WEB-INF/lib/spring-web-5.2.9.RELEASE-sources.jar
